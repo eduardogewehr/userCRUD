@@ -172,3 +172,7 @@ Segue abaixo as APIs disponíveis no projeto:
       ]
   }
     ```
+
+## Exemplos e Testes
+
+Os testes podem ser feitos via Postman. A collection para importação está no arquivo 'USER_CRUD.postman_collection'.
