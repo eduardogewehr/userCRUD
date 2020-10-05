@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0b2879e8-8ac2-43f8-aa9a-3a5edc6d8d13",
+		"_postman_id": "aefcc880-3025-4474-8c28-0826c9526aaa",
 		"name": "USER CRUD",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -49,7 +49,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"José da Silva\",\r\n    \"nickname\": \"Zé\",\r\n    \"document\": \"08240145027\",\r\n    \"profession\": \"Engenheiro\",\r\n    \"salary\": 5555,\r\n    \"dateOfBirth\" : \"16-08-1996\",\r\n    \"adresses\": [\r\n        {\r\n            \"typeAddress\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Minha Casa\",\r\n            \"number\": \"1173\",\r\n            \"complement\": \"Apartamento 804\",\r\n            \"cep\": \"99010101\",\r\n            \"neighborhood\": \"Centro\",\r\n            \"city\": \"Passo Fundo\",\r\n            \"state\": \"RS\",\r\n            \"country\": \"BR\"\r\n        },\r\n         {\r\n            \"typeAddress\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Casa dos meus pais\",\r\n            \"number\": \"890\",\r\n            \"cep\": \"98200000\",\r\n            \"neighborhood\": \"Centro\",\r\n            \"city\": \"Ibirubá\",\r\n            \"state\": \"RS\",\r\n            \"country\": \"BR\"\r\n        }\r\n    ],\r\n    \"phones\": [\r\n        {\r\n            \"countryCode\": \"55\",\r\n            \"ddd\": \"54\",\r\n            \"number\": \"991169413\",\r\n            \"type\": \"Pessoal\"\r\n        },\r\n         {\r\n            \"countryCode\": \"55\",\r\n            \"ddd\": \"54\",\r\n            \"number\": \"991169321\",\r\n            \"type\": \"Pessoal\"\r\n        }\r\n    ],\r\n    \"dependents\": [\r\n        {\r\n            \"name\": \"João da Silva\",\r\n            \"type\": \"Filho\"\r\n        } \r\n    ]\r\n}",
+							"raw": "{\r\n    \"name\": \"José da Silva\",\r\n    \"nickname\": \"Zé\",\r\n    \"document\": \"08240145027\",\r\n    \"profession\": \"Engenheiro\",\r\n    \"salary\": 5555,\r\n    \"dateOfBirth\" : \"1996-08-16\",\r\n    \"adresses\": [\r\n        {\r\n            \"typeAddress\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Minha Casa\",\r\n            \"number\": \"1173\",\r\n            \"complement\": \"Apartamento 804\",\r\n            \"cep\": \"99010101\",\r\n            \"neighborhood\": \"Centro\",\r\n            \"city\": \"Passo Fundo\",\r\n            \"state\": \"RS\",\r\n            \"country\": \"BR\"\r\n        },\r\n         {\r\n            \"typeAddress\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Casa dos meus pais\",\r\n            \"number\": \"890\",\r\n            \"cep\": \"98200000\",\r\n            \"neighborhood\": \"Centro\",\r\n            \"city\": \"Ibirubá\",\r\n            \"state\": \"RS\",\r\n            \"country\": \"BR\"\r\n        }\r\n    ],\r\n    \"phones\": [\r\n        {\r\n            \"countryCode\": \"55\",\r\n            \"ddd\": \"54\",\r\n            \"number\": \"991169413\",\r\n            \"type\": \"Pessoal\"\r\n        },\r\n         {\r\n            \"countryCode\": \"55\",\r\n            \"ddd\": \"54\",\r\n            \"number\": \"991169321\",\r\n            \"type\": \"Pessoal\"\r\n        }\r\n    ],\r\n    \"dependents\": [\r\n        {\r\n            \"name\": \"João da Silva\",\r\n            \"type\": \"Filho\"\r\n        } \r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -127,7 +127,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "localhost:8080/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
 						}
 					},
 					"response": []
